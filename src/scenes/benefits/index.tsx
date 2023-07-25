@@ -81,7 +81,10 @@ const Benefits = ({ setSelectedPage }: Props) => {
 				{/* GRAPHICS AND DESCRIPTION */}
 				<div className='mt-16 items-center justify-between gap-20 md:mt-28 md:flex'>
 					{/* GRAPHIC */}
-					<img className='mx-auto' alt='benefits-page-graphic' src={BenefitsPageGraphic} />
+						<motion.img className='mx-auto' alt='benefits-page-graphic' src={BenefitsPageGraphic} 
+                        whileHover={{ scale: 1.2 }}
+                        transition={{ type: "spring", stiffness: 100, damping: 100 }}
+                        />
 					{/* DESCRIPTION */}
 					<div>
 						{/* TITLE */}

@@ -54,7 +54,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }: Props) => {
 	const flexBetween = "flex items-center justify-between"
 	const [isMenuToggled, setIsMenuToggled] = useState<boolean>(false)
 	const isAboveMediumScreens = useMediaQuery("(min-width: 1060px)")
-	const navbarBackground = isTopOfPage ? "" : "bg-primary-100"
+	const navbarBackground = isTopOfPage ? "" : "opacity-95 bg-gradient-to-r from-white to-[#FFE1E0]"
 
 	const scope = useMenuAnimation(isMenuToggled)
 
