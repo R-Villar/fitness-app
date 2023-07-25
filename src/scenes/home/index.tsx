@@ -36,11 +36,15 @@ const Home = ({ setSelectedPage }: Props) => {
 							visible: { opacity: 1, x: 0 },
 						}}
 					>
-						<div className='relative'>
+						<motion.div
+							className='relative'
+							whileHover={{ scale: 1.1 }}
+							transition={{ type: "spring", stiffness: 50, damping: 50, duration: 1 }}
+						>
 							<div className='before:absolute before:-top-20 before:-left-20 before:z-[-1] md:before:content-evolvetext'>
 								<img alt='home-page-text' src={HomePageText} />
 							</div>
-						</div>
+						</motion.div>
 						<p className='mt-8 text-sm'>
 							Unrivaled Gym. Unparalleled Training Fitness Classes. World Class Studios to get
 							the Body Shapes That you Dream of.. Get Your Dream Body Now.
@@ -70,9 +74,13 @@ const Home = ({ setSelectedPage }: Props) => {
 				</div>
 
 				{/* IMAGE */}
-				<div className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end'>
+				<motion.div
+					className='flex basis-3/5 justify-center md:z-10 md:ml-40 md:mt-16 md:justify-items-end'
+					whileHover={{ scale: 1.2 }}
+					transition={{ type: "spring", stiffness: 100, damping: 100 }}
+				>
 					<img alt='home-pageGraphic' src={HomePageGraphic} />
-				</div>
+				</motion.div>
 			</motion.div>
 
 			{/* SPONSORS */}
