@@ -1,6 +1,6 @@
+import { useForm } from "react-hook-form"
 import { SelectedPage } from "@/shared/types"
 import { motion } from "framer-motion"
-import { useForm } from "react-hook-form"
 import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png"
 import HText from "@/shared/HText"
 
@@ -25,11 +25,11 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 	}
 
 	return (
-		<section is='contactus' className='mx-auto w-5/6 pt-24 pb-32'>
+		<section id='contactus' className='mx-auto w-5/6 pt-24 pb-32'>
 			<motion.div onViewportEnter={() => setSelectedPage(SelectedPage.ContactUs)}>
 				{/* HEADER */}
 				<motion.div
-                    className="md:w-3/5"
+					className='md:w-3/5'
 					initial='hidden'
 					whileInView='visible'
 					viewport={{ once: true, amount: 0.5 }}
@@ -43,9 +43,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 						<span className='text-primary-500'>JOIN NOW</span> TO GET IN SHAPE
 					</HText>
 					<p className='my-5'>
-						Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit
-						exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud
-						amet nisi irure.
+						Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl sapien vel
+						rhoncus. Placerat at in enim pellentesque. Nulla adipiscing leo egestas nisi elit
+						risus sit. Nunc cursus sagittis.
 					</p>
 				</motion.div>
 				{/* FORM AND IMAGE */}
@@ -57,7 +57,7 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 						viewport={{ once: true, amount: 0.5 }}
 						transition={{ duration: 0.5 }}
 						variants={{
-							hidden: { opacity: 0, x: 50 },
+							hidden: { opacity: 0, y: 50 },
 							visible: { opacity: 1, y: 0 },
 						}}
 					>
@@ -101,12 +101,12 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 
 							<textarea
 								className={inputStyles}
+								placeholder='MESSAGE'
 								rows={4}
 								cols={50}
-								placeholder='MESSAGE'
 								{...register("message", {
 									required: true,
-									maxLength: 100,
+									maxLength: 2000,
 								})}
 							/>
 							{errors.message && (
@@ -120,32 +120,34 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 								type='submit'
 								className='mt-5 rounded-lg bg-secondary-500 px-20 py-3 transition duration-500 hover:text-white'
 							>
-								Submit
+								SUBMIT
 							</button>
 						</form>
 					</motion.div>
-                    <motion.div className="relative mt-16 basis-2/5 md:mt-0"
-                        initial='hidden'
+
+					<motion.div
+						className='relative mt-16 basis-2/5 md:mt-0'
+						initial='hidden'
 						whileInView='visible'
 						viewport={{ once: true, amount: 0.5 }}
 						transition={{ delay: 0.2, duration: 0.5 }}
 						variants={{
-							hidden: { opacity: 0, x: 50 },
+							hidden: { opacity: 0, y: 50 },
 							visible: { opacity: 1, y: 0 },
 						}}
-                    >
-                        <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1]">
-                            <img
-                                className="w-full"
-                                alt="contact-us-page-graphic"
-                                src={ContactUsPageGraphic}
-                            />
-                        </div>
-
-                    </motion.div>
+					>
+						<div className='w-full before:absolute before:-bottom-20 before:-right-10 before:z-[-1] md:before:content-evolvetext'>
+							<img
+								className='w-full'
+								alt='contact-us-page-graphic'
+								src={ContactUsPageGraphic}
+							/>
+						</div>
+					</motion.div>
 				</div>
 			</motion.div>
 		</section>
 	)
 }
+
 export default ContactUs
