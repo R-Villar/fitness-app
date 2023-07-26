@@ -43,9 +43,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 						<span className='text-primary-500'>JOIN NOW</span> TO GET IN SHAPE
 					</HText>
 					<p className='my-5'>
-						Congue adipiscing risus commodo placerat. Tellus et in feugiat nisl sapien vel
-						rhoncus. Placerat at in enim pellentesque. Nulla adipiscing leo egestas nisi elit
-						risus sit. Nunc cursus sagittis.
+						Join now and become part of the EVOGYM community, where expert trainers, diverse
+						fitness classes, and cutting-edge facilities await. Start your journey to a healthier,
+						stronger, and happier you today! Don't wait; the path to a better you begins here!
 					</p>
 				</motion.div>
 				{/* FORM AND IMAGE */}
