@@ -1,7 +1,7 @@
 import { useForm } from "react-hook-form"
 import { SelectedPage } from "@/shared/types"
 import { motion } from "framer-motion"
-import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.png"
+import ContactUsPageGraphic from "@/assets/ContactUsPageGraphic.webp"
 import HText from "@/shared/HText"
 
 type Props = {
@@ -143,6 +143,9 @@ const ContactUs = ({ setSelectedPage }: Props) => {
 						>
 							<img
 								className='w-full'
+								sizes='412px'
+								width='412px'
+								height='448px'
 								alt='contact-us-page-graphic'
 								src={ContactUsPageGraphic}
 							/>

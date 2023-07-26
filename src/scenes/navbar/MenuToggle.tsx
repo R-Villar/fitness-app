@@ -3,7 +3,7 @@ const Path = (props: any) => (
 )
 
 export const MenuToggle = ({ toggle }: any) => (
-	<button onClick={toggle} className='rounded-full bg-secondary-500 p-4'>
+	<button aria-label='mobile menu' onClick={toggle} className='rounded-full bg-secondary-500 p-4'>
 		<svg width='23' height='18' viewBox='0 0 23 18'>
 			<Path
 				d='M 2 2.5 L 20 2.5'
