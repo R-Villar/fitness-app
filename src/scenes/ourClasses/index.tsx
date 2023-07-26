@@ -1,10 +1,10 @@
 import { SelectedPage, ClassType } from "@/shared/types"
-import image1 from "@/assets/image1.png"
-import image2 from "@/assets/image2.png"
-import image3 from "@/assets/image3.png"
-import image4 from "@/assets/image4.png"
-import image5 from "@/assets/image5.png"
-import image6 from "@/assets/image6.png"
+import image1 from "@/assets/image1.webp"
+import image2 from "@/assets/image2.webp"
+import image3 from "@/assets/image3.webp"
+import image4 from "@/assets/image4.webp"
+import image5 from "@/assets/image5.webp"
+import image6 from "@/assets/image6.webp"
 import { motion } from "framer-motion"
 import HText from "@/shared/HText"
 import Class from "./Class"
@@ -74,9 +74,15 @@ const OurClasses = ({ setSelectedPage }: Props) => {
 					</div>
 				</motion.div>
 				<div className='mt-10 h-[353px] w-full overflow-x-auto overflow-y-hidden'>
-					<ul className='w-[2800px] whitespace-nowrap'>
+					<ul className='whitespace-nowrap'>
+						{/* <ul className='w-[2800px] whitespace-nowrap'> */}
 						{classes.map((item: ClassType, index) => (
-							<Class key={`${item.name}-${index}`} name={item.name} description={item.description} image={item.image} />
+							<Class
+								key={`${item.name}-${index}`}
+								name={item.name}
+								description={item.description}
+								image={item.image}
+							/>
 						))}
 					</ul>
 				</div>
