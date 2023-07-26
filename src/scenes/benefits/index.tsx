@@ -11,19 +11,19 @@ const benefits: Array<BenefitsType> = [
 		icon: <HomeModernIcon className='h-6 w-6' />,
 		title: "State of the Art Facilities.",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"Discover EVOGYM the cutting-edge gym with state-of-the-art facilities. Experience interactive AI-powered equipment, diverse group fitness classes, and a luxurious spa area for post-workout relaxation. Join a supportive community and track your progress digitally. Your journey to a healthier you begins here!",
 	},
 	{
 		icon: <UserGroupIcon className='h-6 w-6' />,
 		title: "100's of Diverse Classes.",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"Welcome to EVOGYM your go-to gym for diverse fitness classes. With a wide range of options, from high-intensity interval training (HIIT) to calming yoga sessions, we cater to all interests and fitness levels. Our expert instructors are passionate about helping you achieve your best performance, creating a supportive and motivating environment. Your path to a healthier lifestyle starts now",
 	},
 	{
 		icon: <AcademicCapIcon className='h-6 w-6' />,
 		title: "Expert and Pro Trainers",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"At EVOGYM excellence is our standard, and our team of expert and pro trainers exemplifies this commitment. Our trainers are highly skilled, certified professionals who bring a wealth of knowledge and experience to every session. Whether you're a fitness novice or an experienced athlete, our trainers will tailor personalized workout plans to help you reach your goals efficiently and safely.",
 	},
 ]
 
@@ -125,9 +125,11 @@ const Benefits = ({ setSelectedPage }: Props) => {
 							}}
 						>
 							<p className='my-5'>
-								Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit
-								mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore
-								aliqua nostrud amet nisi irure.
+								Discover EVOGYM the cutting-edge gym with state-of-the-art facilities.
+								Experience interactive AI-powered equipment, diverse group fitness classes,
+								and a luxurious spa area for post-workout relaxation. Join a supportive
+								community and track your progress digitally. Your journey to a healthier you
+								begins here!
 							</p>
 							<p className='mb-5'>
 								Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit

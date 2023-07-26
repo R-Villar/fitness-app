@@ -7,22 +7,12 @@ const Footer = () => {
 				<div className='mt-16 basis-1/2 md:mt-0'>
 					<img alt='logo' sizes='113px' width='113px' height='24px' src={Logo} />
 					<p className='my-5 '>
-						Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit
-						exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud
-						amet nisi irure.
+						Welcome to EVOGYM a state-of-the-art gym with expert trainers and diverse fitness
+						classes. Transform your life through our cutting-edge facilities and supportive
+						community. Join us for an exhilarating journey to a healthier, stronger, and happier
+						you!
 					</p>
 					<p>© Evogym All Rights Reserved.</p>
-				</div>
-				<div className='mt-16 basis-1/4 md:mt-0'>
-					<h2 className='font-bold'>LINKS</h2>
-					<p className='mt-5'>anim laborum irure</p>
-					<p className='mt-5'>In minim tempor</p>
-					<p className='mt-5'>In minim tempor</p>
-				</div>
-				<div className='mt-16 basis-1/4 md:mt-0'>
-					<h2 className='font-bold'>Contact Us</h2>
-					<p className='mt-5'>Exercitation excepteur sit</p>
-					<p>(555)555-5555</p>
 				</div>
 			</div>
 		</footer>

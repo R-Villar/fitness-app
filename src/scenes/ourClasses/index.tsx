@@ -67,9 +67,11 @@ const OurClasses = ({ setSelectedPage }: Props) => {
 					<div className='md:w-3/5'>
 						<HText>OUR CLASSES</HText>
 						<p className='py-5'>
-							Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit
-							mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua
-							nostrud amet nisi irure.
+							Discover the power of our gym classes at EVOGYM With a diverse range of options
+							led by expert instructors, you'll experience exciting workouts tailored to your
+							fitness level. From high-intensity challenges to calming sessions, our classes
+							will inspire and motivate you every step of the way. Join us and elevate your
+							fitness journey with the best classes in town!
 						</p>
 					</div>
 				</motion.div>
