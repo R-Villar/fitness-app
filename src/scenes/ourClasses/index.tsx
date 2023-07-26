@@ -13,19 +13,19 @@ const classes: Array<ClassType> = [
 	{
 		name: "Weight Training Classes",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"Unleash your strength with our empowering weight training classes! Led by experienced trainers, these classes cater to all fitness levels, helping you build muscle, tone your body, and boost overall fitness. Join us now to achieve your goals and feel stronger than ever!",
 		image: image1,
 	},
 	{
 		name: "Yoga Classes",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"Experience tranquility and fitness in our rejuvenating yoga classes. Led by certified instructors, we offer various styles for all levels, promoting flexibility and inner peace. Join us now to embark on a transformative journey of holistic well-being. Namaste!",
 		image: image2,
 	},
 	{
 		name: "Ab Core Classes",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"Sculpt and strengthen your core in our dynamic ab core classes led by expert instructors. Improve stability, posture, and overall strength with engaging exercises. Join us now to achieve a powerful and toned midsection!",
 		image: image3,
 	},
 	{
@@ -35,13 +35,13 @@ const classes: Array<ClassType> = [
 	{
 		name: "Fitness Classes",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"Discover exhilarating fitness classes for every goal and passion. Led by certified instructors, our diverse range of activities caters to all levels. Join our vibrant community to elevate your fitness journey and achieve a healthier, happier you!",
 		image: image5,
 	},
 	{
 		name: "Training Classes",
 		description:
-			"Consequat consequat voluptate enim sint esse culpa amet amet lorem lorem elit mollit exercitation enim tempor aliqua fugiat. Elit sint in nisi non labore aliqua nostrud amet nisi irure.",
+			"Elevate your fitness with transformative training classes led by expert instructors. Personalized guidance for all levels, pushing boundaries, and unlocking your full potential. Join us now and become the best version of yourself!",
 		image: image6,
 	},
 ]
